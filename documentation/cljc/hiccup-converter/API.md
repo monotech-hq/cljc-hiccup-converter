@@ -1,11 +1,17 @@
 
-# hiccup-converter.api isomorphic namespace
+### hiccup-converter.api
+
+Functional documentation of the hiccup-converter.api isomorphic namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > hiccup-converter.api
 
 ### Index
 
 - [to-html](#to-html)
+
+---
 
 ### to-html
 
@@ -55,5 +61,5 @@
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

@@ -1,7 +1,11 @@
 
-# cljc-hiccup-converter documentation
+### cljc-hiccup-converter
 
-Documentation of the [cljc-hiccup-converter](https://github.com/bithandshake/cljc-hiccup-converter) Clojure / ClojureScript library
+Functional documentation of the [cljc-hiccup-converter](https://github.com/bithandshake/cljc-hiccup-converter) Clojure / ClojureScript library
+
+---
+
+
 
 ##### [README](../README.md) > DOCUMENTATION
 
@@ -11,5 +15,5 @@ Documentation of the [cljc-hiccup-converter](https://github.com/bithandshake/clj
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
