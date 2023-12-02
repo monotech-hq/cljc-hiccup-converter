@@ -36,12 +36,10 @@ You can track the changes of the <strong>cljc-hiccup-converter</strong> library 
 ### How to convert Hiccup to HTML?
 
 The [`hiccup-converter.api/to-html`](documentation/cljc/hiccup-converter/API.md/#to-html)
-function converts the given Hiccup structure to HTML string.
+function converts the given Hiccup structure into HTML string.
 
 ```
 (to-html [:html [:body [:div {:style {:background "red"}} "My text"]]])
 ; =>
 ; "<html><body><div style=\"background: red;\">My text</div></body></html>"
 ```
-
- 
