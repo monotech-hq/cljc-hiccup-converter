@@ -1,7 +1,9 @@
 
 (ns hiccup-converter.convert
-    #?(:clj  (:require [hiccup.core] [hiccup.api])
-       :cljs (:require [reagent.api] [hiccup.api])))
+    #?(:clj  (:require [hiccup.core]
+                       [hiccup.api])
+       :cljs (:require [reagent.api]
+                       [hiccup.api])))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
