@@ -1,7 +1,7 @@
 
 {:paths ["source-code/cljc"]
  :deps  {bithandshake/cljc-fruits  {:git/url "https://github.com/bithandshake/cljc-fruits"
-                                    :sha     "e4e411c831214e43a554320fb00a8507cbf2780e"}
+                                    :sha     "c39242f4f51c46a31b7ce08039d6cefece2e6c43"}
          bithandshake/reagent-api  {:git/url "https://github.com/bithandshake/reagent-api"
                                     :sha     "4f77c92e09d66abcaa99920cb42374a53a183c14"}
          hiccup/hiccup             {:mvn/version "1.0.5"}

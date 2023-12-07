@@ -1,9 +1,9 @@
 
 (ns hiccup-converter.convert
     #?(:clj  (:require [hiccup.core]
-                       [hiccup.api])
+                       [fruits.hiccup.api])
        :cljs (:require [reagent.api]
-                       [hiccup.api])))
+                       [fruits.hiccup.api])))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -21,5 +21,5 @@
   ;
   ; @return (html)
   [n]
-  #?(:clj  (-> n hiccup.api/unparse-css hiccup.core/html)
+  #?(:clj  (-> n fruits.hiccup.api/unparse-css hiccup.core/html)
      :cljs (-> n reagent.api/render-to-html)))
