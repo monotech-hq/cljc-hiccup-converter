@@ -18,7 +18,7 @@ Check out the latest commit on the [release branch](https://github.com/bithandsh
 
 ### Documentation
 
-The <strong>cljc-hiccup-converter</strong> functional documentation is [available here](documentation/COVER.md).
+The <strong>cljc-hiccup-converter</strong> functional documentation is [available here](https://bithandshake.github.io/cljc-hiccup-converter).
 
 ### Changelog
 
