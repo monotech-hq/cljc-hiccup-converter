@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>cljc-hiccup-converter</strong> is a simple Hiccup to HTML converter.
+The <strong>cljc-hiccup-converter</strong> is a simple Hiccup to HTML converter for Clojure projects.
 
 ### deps.edn
 
