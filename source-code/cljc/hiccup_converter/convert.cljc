@@ -2,7 +2,7 @@
 (ns hiccup-converter.convert
     #?(:clj  (:require [hiccup.core]
                        [fruits.hiccup.api])
-       :cljs (:require [reagent.api]
+       :cljs (:require [reagent.dom.server]
                        [fruits.hiccup.api])))
 
 ;; ----------------------------------------------------------------------------
@@ -19,4 +19,4 @@
   ; @return (html)
   [n]
   #?(:clj  (-> n fruits.hiccup.api/unparse-css hiccup.core/html)
-     :cljs (-> n reagent.api/render-to-html)))
+     :cljs (-> n reagent.dom.server/render-to-string)))
