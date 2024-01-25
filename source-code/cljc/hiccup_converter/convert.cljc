@@ -13,9 +13,6 @@
   ;
   ; @usage
   ; (to-html [:html [:body [:div {:style {:background :red}} "My text"]]])
-  ;
-  ; @example
-  ; (to-html [:html [:body [:div {:style {:background :red}} "My text"]]])
   ; =>
   ; "<html><body><div style=\"background: red;\">My text</div></body></html>"
   ;
