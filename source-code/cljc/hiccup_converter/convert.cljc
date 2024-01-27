@@ -9,6 +9,9 @@
 ;; ----------------------------------------------------------------------------
 
 (defn to-html
+  ; @description
+  ; Converts the given HICCUP data to HTML string.
+  ;
   ; @param (hiccup) n
   ;
   ; @usage
@@ -16,7 +19,7 @@
   ; =>
   ; "<html><body><div style=\"background: red;\">My text</div></body></html>"
   ;
-  ; @return (html)
+  ; @return (string)
   [n]
   #?(:clj  (-> n fruits.hiccup.api/unparse-css hiccup.core/html)
      :cljs (-> n reagent.dom.server/render-to-string)))
