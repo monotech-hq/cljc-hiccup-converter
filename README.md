@@ -16,10 +16,10 @@ The <strong>cljc-hiccup-converter</strong> is a simple Hiccup to HTML converter 
 
 Check out the latest commit on the [release branch](https://github.com/mt-app-kit/cljc-hiccup-converter/tree/release).
 
-### Documentation
-
-The <strong>cljc-hiccup-converter</strong> functional documentation is [available here](https://mt-app-kit.github.io/cljc-hiccup-converter).
-
 ### Changelog
 
 You can track the changes of the <strong>cljc-hiccup-converter</strong> library [here](CHANGES.md).
+
+# Documentation
+
+The <strong>cljc-hiccup-converter</strong> functional documentation is [available here](https://mt-app-kit.github.io/cljc-hiccup-converter).
